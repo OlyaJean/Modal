@@ -1,0 +1,57 @@
+body{margin:0;
+box-sizing: border-box;}
+.hero{background-image:url('shadows.jpeg');
+width:100vw;
+height:100vh;
+background-size: cover;
+display:flex;
+align-items: center;
+justify-content: center;
+z-index: -10;}
+
+.container{
+width:300px;
+text-align: center;
+padding: 20px 0;
+border-radius: 10px;
+background-color: rgba(240, 248, 255, 0.742);
+}
+
+.show{visibility:visible;
+    background-color:rgba(0, 255, 255, 0.428);
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    width:100vw;
+    height:100vh;
+    z-index: 10;}
+
+
+
+.overlay{background-color:rgba(0, 255, 255, 0.428);
+width:100vw;
+height:100vh;
+background-size: cover;
+display:flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top:0;
+width:100vw;
+height:100vh;
+z-index: 10;
+visibility: hidden;}
+
+.container2{
+width:300px;
+text-align: center;
+padding: 20px 0;
+border-radius: 10px;
+background-color: rgb(250, 251, 252);
+opacity: 1;
+}
